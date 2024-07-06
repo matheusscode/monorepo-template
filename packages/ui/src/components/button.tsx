@@ -7,6 +7,8 @@ const buttonV = tv({
     variant: {
       solid:
         "border border-solid border-white dark:border-neutral-800 bg-neutral-950 dark:bg-white text-white dark:text-neutral-950 hover:bg-neutral-800 dark:hover:bg-neutral-200",
+      success:
+        "border border-solid border-emeral-500 bg-neutral-500 hover:bg-emerald-600 text-white",
     },
     size: {
       sm: "h-[36px]",
