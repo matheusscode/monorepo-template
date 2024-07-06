@@ -10,12 +10,14 @@ Este repositório serve como um template para projetos monorepo, integrando vár
 - **Fastify**: Framework web para Node.js focado em desempenho e baixo overhead.
 - **Prisma**: ORM de próxima geração para consultas eficientes em banco de dados.
 - **Docker Compose**: Ferramenta para definir e gerenciar ambientes multi-containers com suporte ao PostgreSQL.
+- **pnpm workspace**: Gerenciador de pacotes rápido, eficiente e com suporte a workspaces.
 
 ## Recursos
 
 - **Estrutura Monorepo**: Organização centralizada para gerenciar múltiplos pacotes e serviços.
 - **Configuração Docker**: Facilita a configuração e execução de ambientes de desenvolvimento consistentes usando containers.
 - **Suporte a PostgreSQL**: Banco de dados relacional robusto e escalável integrado via Docker Compose.
+- **Gerenciamento de Pacotes com pnpm**: Dependências gerenciadas de forma eficiente usando pnpm workspaces.
 
 ## Como Usar
 
@@ -27,7 +29,7 @@ Este repositório serve como um template para projetos monorepo, integrando vár
 2. Navegue até o diretório do projeto e instale as dependências:
     ```bash
     cd monorepo-template
-    npm install
+    pnpm install
     ```
 
 3. Execute os containers Docker:
@@ -37,5 +39,5 @@ Este repositório serve como um template para projetos monorepo, integrando vár
 
 4. Inicie o servidor de desenvolvimento:
     ```bash
-    npm run dev
+    pnpm run dev
     ```
